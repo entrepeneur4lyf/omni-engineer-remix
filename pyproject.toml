@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "omni-engineer-remix"
+version = "2024.09.15"
+description = "An intelligent assistant designed to enhance your development workflow with advanced AI capabilities."
+authors = ["Pietro Schirano <pietro.schirano@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.46.0"
+python-dotenv = "^1.0.1"
+colorama = "^0.4.6"
+duckduckgo-search = "^6.2.11"
+Pygments = "^2.18.0"
+rich = "^13.8.1"
+pillow = "^10.4.0"
+prompt-toolkit = "^3.0.47"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
